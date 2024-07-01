@@ -1,4 +1,12 @@
 const ws = new WebSocket('wss://weconnect4.onrender.com');
+
+ws.onopen = () => {
+    console.log('WebSocket connection established.');
+};
+
+ws.onerror = (error) => {
+    console.error('WebSocket error:', error);
+};
 val_c1 = 1;
 val_c2 = 1;
 val_c3 = 1;
