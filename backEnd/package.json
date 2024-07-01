@@ -1,5 +1,5 @@
 {
-    "name": "connect4-multiplayer",
+    "name": "connect4-backend",
     "version": "1.0.0",
     "main": "server.js",
     "scripts": {
