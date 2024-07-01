@@ -1,3 +1,4 @@
+const ws = new WebSocket('wss://weconnect4.onrender.com');
 val_c1 = 1;
 val_c2 = 1;
 val_c3 = 1;
